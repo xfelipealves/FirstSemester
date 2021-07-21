@@ -1,0 +1,24 @@
+ITEM 6   -FEITO
+Cadastrar notas
+4 notas 
+
+ITEM 7   -FEITO
+Colocar peso para as notas 
+
+ITEM 8
+
+1 media ponderada final F
+
+conceito = a b c d e
+
+
+ARRUMAR
+
+classificar notas por média
+
+matricula char 4            -FEITO
+
+matricula, aparecer tudo
+{nota 1 nota 2 nota 3 nota 4 conceito nome}
+
+listar nomes com matricula  -FEITO

@@ -1,0 +1,15 @@
+Caractere especial
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+setlocale(LC_ALL, "Portuguese");
+
+precision
+#include <iomanip>
+fixed<<setprecision2);
+
+Matematica e raiz
+#include <cmath>
+
+Operadores
+https://pt.wikipedia.org/wiki/Operadores_em_C_e_C%2B%2B

@@ -1,0 +1,131 @@
+	#include <iostream>
+	using namespace std;
+	
+	int main() 
+	{
+		int qnt;
+		
+		cout<<"Quantos alunos deseja cadastrar?";
+		cin>>qnt;
+		system("CLS");
+		
+		int nota[qnt],i,a=1;
+		string nome[qnt],matricula[qnt];
+
+		for (i=0;a==1 and i<=qnt;i++)
+		{
+			system("CLS");
+			cout<<"Digite o nome do aluno:";
+			cin>>nome[i];
+			cout<<"Digite a matricula do aluno:";
+			cin>>matricula[i];
+			cout<<"Digite a primeira nota do aluno:";
+			cin>>nota[i];
+			
+			system("CLS");
+			
+			cout<<"1 - Cadastrar novo aluno"<<endl;
+			cout<<"2 - Sair do programa"<<endl;
+			cin>>a;
+		}
+		
+		return 0;
+	}
+
+
+
+
+3- qntd de matriculudos
+4 - lista de matriculados
+
+
+
+
+	#include <iostream>
+	using namespace std;
+	
+	int main() 
+	{
+		int nota[50],i,b,a;
+		string nome[50],matricula[50];
+
+		cout<<"1 - Cadastrar novo aluno"<<endl;
+		cout<<"2 - Sair do programa"<<endl;
+		cin>>a;
+		for (i=0;a==1;i++)
+		{
+			system("CLS");
+			cout<<"Digite o nome do aluno: ";
+			cin>>nome[i];
+			cout<<"Digite a matricula do aluno: ";
+			cin>>matricula[i];
+			cout<<"Digite a primeira nota do aluno: ";
+			cin>>nota[i];
+			
+			system("CLS");
+			
+			cout<<"1 - Cadastrar novo aluno"<<endl;
+			cout<<"2 - Sair do programa"<<endl;
+			cout<<"3 - Quantidade de alunos cadastrados"<<endl;
+			cout<<"4 - Imprimir lista de matriculados"<<endl;
+			cin>>a;
+			if (a==3)
+			{
+				system ("CLS");
+				cout<<"Quantidade de alunos cadastrados sao "<<i+1<<endl;
+				cout<<endl<<"1 - Cadastrar novo aluno"<<endl;
+				cout<<"2 - Sair do programa"<<endl;
+				cout<<"4 - Imprimir lista de matriculados"<<endl;
+				cin>>a;
+				if (a==4)
+				{
+					system("CLS");
+					for (b=0;b<=i;b++)
+					{
+						cout<<nome[b]<<endl;
+					}
+					cout<<endl<<"1 - Cadastrar novo aluno"<<endl;
+					cout<<"2 - Sair do programa"<<endl;
+					cin>>a;
+				}
+			}
+			else
+			{
+				if (a==4)
+				{
+					system("CLS");
+					for (b=1;b<=i;b++)
+					{
+						cout<<nome[b]<<endl;
+					}
+					cout<<endl<<"1 - Cadastrar novo aluno"<<endl;
+					cout<<"2 - Sair do programa"<<endl;
+					cout<<"3 - Quantidade de alunos cadastrados"<<endl;
+					cin>>a;
+					if (a==3)
+					{
+						system("CLS");
+						cout<<"Quantidade de alunos cadastrados sao "<<i+1<<endl;
+						cout<<endl<<"1 - Cadastrar novo aluno"<<endl;
+						cout<<"2 - Sair do programa"<<endl;
+						cin>>a;
+					}
+				}
+			}
+		}
+		
+		
+		
+		return 0;
+	}
+
+5- consultar por matricula e imprimir o nome e nota
+
+
+
+3 4 5  feito
+3 5 4  feito
+4 3 5  feito
+4 5 3  feito
+5 4 3  feito
+5 3 4  feito
